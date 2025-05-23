@@ -7,6 +7,7 @@ This repository contains the implementation of ConZWNet. The code includes modul
 Our **ConZWNet** network has achieved an advanced level in zero-watermarking technology. We are the first to propose the application of contrastive learning and copyright label discrimination in the generation of zero-watermarks. The **robustness** test results show NC > **0.95**, and the **discriminability** test results show NC < **0.66** (for detailed experimental results, refer to Section 5. Results).
 
 Below is the architecture diagram of our network:
+![ConZWNet_Overview](https://github.com/user-attachments/assets/197a9297-cb62-4444-bf78-1814619e856c)
 
 
 
