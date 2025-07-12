@@ -2,6 +2,36 @@
 
 This repository contains the implementation of ConZWNet. The code includes modules for data augmentation, data loading, model training, and evaluating robustness and discriminability.
 
+## 📄 Paper
+
+We published our work in the journal *Journal of Information Security and Applications*:
+
+**Title**:  
+**"ConZWNet: A contrastive learning-based zero-watermarking network for high robustness and distinguishability"**
+
+**Authors**:  
+Deyu Tong, Hongxin Han, Can Li, Fengting Wang, Weilong Kong, Na Ren
+
+**Link**:  
+👉 [ScienceDirect - Read the Paper](https://www.sciencedirect.com/science/article/pii/S2214212625001760?via%3Dihub)
+
+**Abstract**:  
+> Zero-watermarking is an effective solution for image copyright protection without altering the original content. However, current deep learning-based methods suffer from two key limitations. First, most feature extraction networks, originally designed for classification, lack robust feature learning essential for resisting attacks. Second, conventional methods seldom incorporate the generated watermark back into training, missing opportunities to further optimize the model. To address these issues, we propose ConZWNet, a two-stage framework that integrates contrastive learning with feedback-driven zero-watermark generation. In the first stage, we use ConvNeXt to learn invariant, attack-resistant features via contrastive learning on weak–strong augmentation. In the second stage, a residual network coupled with a Multi-Layer Perceptron (MLP) fuses features from host and copyright images to produce a latent zero-watermark, which is then verified by an MLP-based copyright identification network. This feedback loop optimizes feature fusion and transforms zero-watermark generation into a self-supervised process. Extensive experiments demonstrate that ConZWNet achieves state-of-the-art robustness against various attacks while ensuring high distinguishability among host images and copyrights. Ablation studies confirm the effectiveness of components, including two-stage architecture, contrastive learning, weak–strong augmentation, and copyright identification network. 
+
+**BibTeX**:
+```bibtex
+@article{TONG2025104139,
+title = {ConZWNet: A contrastive learning-based zero-watermarking network for high robustness and distinguishability},
+journal = {Journal of Information Security and Applications},
+volume = {93},
+pages = {104139},
+year = {2025},
+issn = {2214-2126},
+doi = {https://doi.org/10.1016/j.jisa.2025.104139},
+url = {https://www.sciencedirect.com/science/article/pii/S2214212625001760},
+author = {Deyu Tong and Hongxin Han and Can Li and Fengting Wang and Weilong Kong and Na Ren},
+}
+
 
 ## 1. introduction
 Our **ConZWNet** network has achieved an advanced level in zero-watermarking technology. We are the first to propose the application of contrastive learning and copyright label discrimination in the generation of zero-watermarks. The **robustness** test results show NC > **0.95**, and the **discriminability** test results show NC < **0.66** (for detailed experimental results, refer to Section 4).
