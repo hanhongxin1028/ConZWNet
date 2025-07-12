@@ -31,7 +31,7 @@ doi = {https://doi.org/10.1016/j.jisa.2025.104139},
 url = {https://www.sciencedirect.com/science/article/pii/S2214212625001760},
 author = {Deyu Tong and Hongxin Han and Can Li and Fengting Wang and Weilong Kong and Na Ren},
 }
-
+```
 
 ## 1. introduction
 Our **ConZWNet** network has achieved an advanced level in zero-watermarking technology. We are the first to propose the application of contrastive learning and copyright label discrimination in the generation of zero-watermarks. The **robustness** test results show NC > **0.95**, and the **discriminability** test results show NC < **0.66** (for detailed experimental results, refer to Section 4).
